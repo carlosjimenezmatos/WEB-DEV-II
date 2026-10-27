@@ -21,9 +21,3 @@ Open your browser's developer tools (F12) and use the device toolbar to try the 
 Notes
 Do not upload the node_modules or dist folders to GitHub. npm install recreates node_modules.
 This file is separate from README.md, which contains the task specification.
-
-## Tablet Wireframe
-![](wireframes/tablet-wireframe.png)
-
-## Desktop Wireframe
-![](wireframes/desktop-wireframe.png)
