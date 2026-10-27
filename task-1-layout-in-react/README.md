@@ -1,28 +1,23 @@
-# Clone Task 1: Layout in React
+How to run: Task 1: Layout in React
+What you need
+Node.js (version 18 or newer). Check with node -v in a terminal.
+Steps
+Open a terminal in this folder (in VS Code: right-click the folder > Open in Integrated Terminal).
+Install the dependencies (first time only):
+bash
+   npm install
+Start the development server:
+bash
+   npm run dev
+Open the address it prints (usually http://localhost:5173) in your browser.
+Press Ctrl + C in the terminal to stop the server.
+Other commands
+npm run build creates an optimised copy in the dist folder.
+npm run preview serves the built copy so you can check it.
+Testing the layout
 
-Your task is to create the website for a blog post about the Erased Tapes Records music label. 
+Open your browser's developer tools (F12) and use the device toolbar to resize the window. The page is designed for desktop (about 1920px wide) and collapses to two columns below 1000px and one column below 720px.
 
-You must implement the website according to the [written specification](#specification) and [desktop wireframe](wireframes/desktop-wireframe.png) provided. For any details that have not been specified, you must make appropriate decisions about how to implement that detail. All required elements are shown in the wireframe. Specific measurements and values are outlined below.
-
-The images and placeholder text you will need are provided in the [`assets`](assets) folder.
-
-## Specification
-
-1. The content background colour should be white. The page background colour should be `#e9e9e9`. The footer background colour should be `#14181d`.
-
-2. The logo and the author's photo should each be `200px` wide.
-
-3. The social media icons should be `50px` wide.
-
-4. The standard spacing between elements should be `50px`. The spacing between each social media icons should be `10px`.
-
-5. Typography should adhere to the following specification:
-    
-    1. Headings should use the `"Protest Guerrilla"` font family. All other text should use `"Josefin Sans"`. These should be imported from [Google Fonts](https://fonts.google.com).
-    2. Headings should be three times larger than the default font size. The title heading should be much larger, as shown in the wireframe.
-    3. The first paragraph should be a larger font.
-    4. Typography and spacing should be optimised to make the text as legible as possible. Therefore, paragraphs and headings do not have to use the standard spacing.
-
-## Desktop Wireframe
-
-![](wireframes/desktop-wireframe.png)
+Notes
+Do not upload the node_modules or dist folders to GitHub. npm install recreates node_modules.
+This file is separate from README.md, which contains the task specification.
